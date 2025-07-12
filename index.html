@@ -1,11 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Outbreak - Классика в новом формате</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Outbreak">
+            <!-- <h1>Outbreak</h1> -->
+        </div>
+        <nav>
+            <ul class="main-menu">
+                <li><a href="index.html" class="active">Главная</a></li>
+                <li><a href="features.html">Особенности</a></li>
+                <li><a href="screenshots.html">Скриншоты</a></li>
+                <li><a href="download.html">Скачать</a></li>
+            </ul>
+            <button class="menu-toggle">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Не самый обычный Breakout</h2>
+                <p>Ощутите классический геймплей с необычными усложнениями и эффектами!</p>
+                <div class="cta-buttons">
+                    <a href="download.html" class="cta-button">Скачать сейчас</a>
+                    <a href="#trailer" class="cta-button secondary">Смотреть трейлер</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-image.png" alt="Outbreak" class="pulse">
+            </div>
+        </section>
+
+        <section class="quick-features">
+            <h2>Почему стоит играть?</h2>
+            <ul>
+                <li>
+                    <img src="images/icon-arcade.png" alt="Иконка">
+                    <h3>Классический аркады</h3>
+                    <p>Ностальгический геймплей из 80-х</p>
+                </li>
+                <li>
+                    <img src="images/icon-graphics.png" alt="Иконка">
+                    <h3>Современная графика</h3>
+                    <p>Красивые визуальные эффекты</p>
+                </li>
+                <li>
+                    <img src="images/icon-levels.png" alt="Иконка">
+                    <h3>Несколько уровней</h3>
+                    <p>Постепенно возрастающая сложность</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="trailer" class="video-section">
+            <h2>Официальный трейлер</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/SNBlcPDfcpY?start=427" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <h2>Отзывы игроков</h2>
+            <div class="review-cards">
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Лучшая версия Breakout, в которую я играл!"</p>
+                    <div class="author">- Алексей, Москва</div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★☆</div>
+                    <p>"Отличное сочетание классики и новшеств."</p>
+                    <div class="author">- Мария, СПб</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo-small.png" alt="Outbreak">
+            </div>
+            <div class="footer-links">
+                <h3>Меню</h3>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="features.html">Особенности</a></li>
+                    <li><a href="screenshots.html">Скриншоты</a></li>
+                    <li><a href="download.html">Скачать</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Мы в соцсетях</h3>
+                <ul>
+                    <li><a href="#"><img src="images/icon-vk.png" alt="VK"></a></li>
+                    <li><a href="#"><img src="images/icon-telegram.png" alt="Telegram"></a></li>
+                    <li><a href="https://youtu.be/dQw4w9WgXcQ?si=G7iA6t5nYGxiD8rm"><img src="images/icon-youtube.png" alt="YouTube"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Outbreak. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
